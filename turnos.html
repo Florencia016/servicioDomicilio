@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>  <head>
+    <title>Title of the document</title>
+    <link rel="stylesheet" href="estilos.css">
+  </head>
+  <body>
+      <div class="servicios-turnos">
+        <h2>Todos nuestros servicios</h2>
+    <p>
+        <h2>Depilación</h2>
+      <button class="button" data-modal="modalUno">Reservar turno</button>
+    </p>
+    <p>
+        <h2>Peluquería</h2>
+      <button class="button" data-modal="modalDos">Reservar turno</button>
+    </p>
+    <p>
+        <h2>Masajes y spa</h2>
+      <button class="button" data-modal="modalTres">Reservar turno</button>
+    </p>
+    <p>
+        <h2>Manos y pies</h2>
+      <button class="button" data-modal="modalCuatro">Reservar turno</button>
+    </p>
+    <p>
+        <h2>Estética facial</h2>
+      <button class="button" data-modal="modalCinco">Reservar turno</button>
+    </p>
+      </div>
+    
+    <div id="modalUno" class="modal">
+      <div class="modal-content">
+        <div class="contact-form">
+          <a class="close">&times;</a>
+          <form action="/">
+            <h2>Solicitar reserva</h2>
+            <div>
+              <input class="fname" type="text" name="name" placeholder="Dirección">
+              <h2>Especialidades disponibles</h2>
+              <select name="drinks" required>
+                <option value="" disabled selected hidden>Depilación</option>
+                <option value="Rostro">Rostro</option>
+                <option value="Brazos">Brazos</option>
+                <option value="Cavado">Cavado</option>
+                <option value="Tiro cola">Tiro cola</option>
+                <option value="Piernas">Piernas</option>
+                <option value="Media pierna">Media pierna</option>
+              </select>
+              <h2>Especialistas disponibles</h2>
+              <select name="drinks" required>
+                <option value="" disabled selected hidden>Profesionales</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+              </select>
+              <h2>Elige el día</h2>
+              <input type="date" name="date">  
+              <div class="turnos-check">
+                <label class="form-check-label" for="flexRadioDefault1">9:00 hs - 9:30 hs</label>
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                <label class="form-check-label" for="flexRadioDefault1">10:00 hs - 10:30 hs</label>
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                <label class="form-check-label" for="flexRadioDefault1">11:00 hs - 11:30 hs</label>
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+              </div>
+            </div>
+            <button type="submit" href="/">Reservar turno</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div id="modalDos" class="modal">
+        <div class="modal-content">
+          <div class="contact-form">
+            <a class="close">&times;</a>
+            <form action="/">
+              <h2>Solicitar reserva</h2>
+              <div>
+                <input class="fname" type="text" name="name" placeholder="Dirección">
+                <h2>Especialidades disponibles</h2>
+                <select name="drinks" required>
+                  <option value="" disabled selected hidden>Peluquería</option>
+                  <option value="Corte">Corte</option>
+                  <option value="Tintura">Tintura</option>
+                  <option value="Planchado definitivo">Planchado definitivo</option>
+                  <option value="Mechas">Mechas</option>
+                  <option value="Nutrición">Nutrición</option>
+                </select>
+                <h2>Especialistas disponibles</h2>
+                <select name="drinks" required>
+                  <option value="" disabled selected hidden>Profesionales</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                </select>
+                <h2>Elige el día</h2>
+                <input type="date" name="date">  
+                <div class="turnos-check">
+                  <label class="form-check-label" for="flexRadioDefault1">9:00 hs - 9:30 hs</label>
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                  <label class="form-check-label" for="flexRadioDefault1">10:00 hs - 10:30 hs</label>
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                  <label class="form-check-label" for="flexRadioDefault1">11:00 hs - 11:30 hs</label>
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                </div>
+              </div>
+              <button type="submit" href="/">Reservar turno</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div id="modalTres" class="modal">
+        <div class="modal-content">
+          <div class="contact-form">
+            <a class="close">&times;</a>
+            <form action="/">
+              <h2>Solicitar reserva</h2>
+              <div>
+                <input class="fname" type="text" name="name" placeholder="Dirección">
+                <h2>Especialidades disponibles</h2>
+                <select name="drinks" required>
+                  <option value="" disabled selected hidden>Masajes y spa</option>
+                  <option value="Masajes relajantes">Masajes relajantes</option>
+                  <option value="Masajes reductores">Masajes reductores</option>
+                  <option value="Cuidado de cutis">Cuidado de cutis</option>
+                  <option value="Masajes deportivos">Masajes deportivos</option>
+                </select>
+                <h2>Especialistas disponibles</h2>
+                <select name="drinks" required>
+                  <option value="" disabled selected hidden>Profesionales</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                </select>
+                <h2>Elige el día</h2>
+                <input type="date" name="date">  
+                <div class="turnos-check">
+                  <label class="form-check-label" for="flexRadioDefault1">9:00 hs - 9:30 hs</label>
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                  <label class="form-check-label" for="flexRadioDefault1">10:00 hs - 10:30 hs</label>
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                  <label class="form-check-label" for="flexRadioDefault1">11:00 hs - 11:30 hs</label>
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                </div>
+              </div>
+              <button type="submit" href="/">Reservar turno</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div id="modalCuatro" class="modal">
+        <div class="modal-content">
+          <div class="contact-form">
+            <a class="close">&times;</a>
+            <form action="/">
+              <h2>Solicitar reserva</h2>
+              <div>
+                <input class="fname" type="text" name="name" placeholder="Dirección">
+                <h2>Especialidades disponibles</h2>
+                <select name="drinks" required>
+                  <option value="" disabled selected hidden>Manos y pies</option>
+                  <option value="Uñas semi-permanentes">Uñas semi-permanentes</option>
+                  <option value="Esmaltado común">Esmaltado común</option>
+                  <option value="Extensiones de uñas">Extensiones de uñas</option>
+                  <option value="Belleza de pies">Belleza de pies</option>
+                </select>
+                <h2>Especialistas disponibles</h2>
+                <select name="drinks" required>
+                  <option value="" disabled selected hidden>Profesionales</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                </select>
+                <h2>Elige el día</h2>
+                <input type="date" name="date">  
+                <div class="turnos-check">
+                  <label class="form-check-label" for="flexRadioDefault1">9:00 hs - 9:30 hs</label>
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                  <label class="form-check-label" for="flexRadioDefault1">10:00 hs - 10:30 hs</label>
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                  <label class="form-check-label" for="flexRadioDefault1">11:00 hs - 11:30 hs</label>
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                </div>
+              </div>
+              <button type="submit" href="/">Reservar turno</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div id="modalCinco" class="modal">
+        <div class="modal-content">
+          <div class="contact-form">
+            <a class="close">&times;</a>
+            <form action="/">
+              <h2>Solicitar reserva</h2>
+              <div>
+                <input class="fname" type="text" name="name" placeholder="Dirección">
+                <h2>Especialidades disponibles</h2>
+                <select name="drinks" required>
+                  <option value="" disabled selected hidden>Estetica facial</option>
+                  <option value="Rejuvenecimiento facial">Rejuvenecimiento facial</option>
+                  <option value="Embellecimiento de cara y cuello">Embellecimiento de cara y cuello</option>
+                  <option value="Corrección de arrugas">Corrección de arrugas</option>
+                </select>
+                <h2>Especialistas disponibles</h2>
+                <select name="drinks" required>
+                  <option value="" disabled selected hidden>Profesionales</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                </select>
+                <h2>Elige el día</h2>
+                <input type="date" name="date">  
+                <div class="turnos-check">
+                  <label class="form-check-label" for="flexRadioDefault1">9:00 hs - 9:30 hs</label>
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                  <label class="form-check-label" for="flexRadioDefault1">10:00 hs - 10:30 hs</label>
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                  <label class="form-check-label" for="flexRadioDefault1">11:00 hs - 11:30 hs</label>
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                </div>
+              </div>
+              <button type="submit" href="/">Reservar turno</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    <script src="script.js"> </script>
+  </body>
+</html>
