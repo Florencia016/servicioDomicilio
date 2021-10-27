@@ -1,0 +1,323 @@
+.container-encabezado{
+    position: relative;
+    width: 95%;
+    height: 20%;
+    margin-top: auto;
+    margin-right: auto;
+    padding: 2px;
+    text-align: center;
+}
+
+.acceso{
+    height: 100%;
+    margin-top: 26px;
+    margin-right: auto;
+    padding: 20px;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+}
+
+.registro{
+    height: 100%;
+    margin-right: auto;
+    padding: 25px;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+}
+
+.registroServicio{
+    height: 100%;
+    margin: 30px;
+    padding: 10px;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+}
+
+.compras, .ventas{
+    height: 100%;
+    margin-top: 26px;
+    margin-right: auto;
+    padding: 35px;
+    position:relative;
+    text-align: center;
+    justify-content: center;
+}
+
+.contenedor-obtenerTurno{
+  background: #acf4fd;
+  width: 400px;
+  position: relative;
+  text-align: center;
+  margin-top:100px;
+  margin-left: 35%;
+  padding: 25px;
+  transition:
+    font-size 0.7s cubic-bezier(0.61,-0.19, 0.7,-0.11),
+    flex 0.7s cubic-bezier(0.61,-0.19, 0.7,-0.11),
+    background 0.2s;
+}
+
+.inicio{
+    display:inline-flex;
+    width: 100%;
+    padding: 20px;
+    margin-top: 3px;
+    text-align: center;
+    justify-content: center;
+}
+
+input{
+    text-align: center;
+    justify-content: center;
+    width: 250px;
+} 
+
+img{
+    text-align: center;
+    margin: auto;
+    padding: 15px;
+}
+
+.perfil{
+    text-align: center;
+    padding: 35px;
+}
+
+.conteiner-servicios{
+    width: 600px;
+    height: 400px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.item{
+    width: calc((100% - 15px) / 4);
+    flex: none;
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3em;
+}
+
+.grid-container{
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /*tamaño del contenido*/
+	grid-auto-rows: 100px;
+	grid-gap: 10px; /*separación entre los items, entre las imagenes en este caso*/
+    padding: 3px;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    background-color: darkkhaki;
+}
+
+.contenedor-tipoServicios{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 10fr)); /*tamaño del contenido*/
+	grid-auto-rows: 100px;
+	grid-gap: 55px; /*separación entre los items, entre las imagenes en este caso*/
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    
+  }
+
+  .depilacion, .masajes, .uñas, .peluqueria, .esteticaFacial{
+    display: inline-block;
+    margin: 23px;
+    text-align: center;
+    position: relative;
+    background: #82eed1 ;
+    border-radius: 8px;
+    padding: 10px;
+  
+    transition:
+      font-size 0.7s cubic-bezier(0.61,-0.19, 0.7,-0.11),
+      flex 0.7s cubic-bezier(0.61,-0.19, 0.7,-0.11),
+      background 0.2s;
+  }
+  
+  .depilacion:hover{
+    transform: scale(1.1);
+  }
+
+  .esteticaFacial:hover{
+    transform: scale(1.1);
+  }
+  
+  .uñas:hover{
+    transform: scale(1.1);
+  }
+  
+  .masajes:hover{
+    transform: scale(1.1);
+  }
+
+  .peluqueria:hover{
+    transform: scale(1.1);
+  }
+
+  
+ button:hover{
+    transform: scale(1.1);
+  }
+
+  .contenedor-nosotros, .contenedor-hacemos{
+    text-align: center;
+    height: 160px;
+    width: 800px;
+    border-radius: 5%;
+    padding: 1px;
+    margin: auto;
+     transition:
+      font-size 0.7s cubic-bezier(0.61,-0.19, 0.7,-0.11),
+      flex 0.7s cubic-bezier(0.61,-0.19, 0.7,-0.11),
+      background 0.2s;
+  }
+
+  .serviciosOfrecidos{
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    padding: 40px;
+  }
+
+  .serviciosOfrecidos > input{
+    width: 300px;
+    position: relative;
+    text-align: center;
+    margin-left: 39%;
+  }
+
+#map {
+  width: 100%;
+  height: 500px;
+}
+/*Estilos para las ventanas emergentes*/
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 8;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.modal-content {
+  margin: 50px auto;
+  border: 1px solid #999;
+  width: 60%;
+}
+h2,p {
+  margin: 0 0 20px;
+  font-weight: 400;
+  color: #999;
+}      span {
+  color: #666;
+  display: block;
+  padding: 0 0 5px;
+}
+form {
+  padding: 25px;
+  margin: 25px;
+  box-shadow: 0 2px 5px #f5f5f5;
+  background: #eee;
+}
+input,
+textarea {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #1c87c9;
+  outline: none;
+}
+.contact-form button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background: #1c87c9;
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+}
+button:hover {
+  background: #c7e78a;
+}
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+button.button {
+  background: none;
+  border-top: none;
+  outline: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: #02274a 1px solid;
+  padding: 0 0 3px 0;
+  font-size: 16px;
+  cursor: pointer;
+}
+button.button:hover {
+  border-bottom: #a99567 1px solid;
+  color: #a99567;
+}
+
+.turnos-check{
+  position: relative;
+  width: 50vh;
+  height: 20vh;
+  justify-content: left;
+  line-height: 0%;
+}
+
+.servicios-turnos{
+  height: 100%;
+  width: 100%;
+  float: left; 
+  text-align: center;
+}
+
+.contenedor-categorias{
+  height: 800px;
+  text-align: center;
+  overflow: auto;
+}
+
+.boton{
+  display: inline-flex;
+background-color: #dbdbdb;
+border-radius: 6px;
+border: black, solid, 2px;
+color: rgb(0, 0, 0);
+cursor: pointer;
+font-size: 1em;
+padding: 10px 18px;
+text-align: center;
+text-transform: uppercase;
+width: auto;
+}
+
+.boton:hover{
+background: #c7e78a;
+color: rgb(0, 0, 0);
+transform: scale(1.1);
+}
